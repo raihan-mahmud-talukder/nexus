@@ -4,10 +4,10 @@ import { Hero } from "./Home/Hero"
 
 export const Home = () => {
     return (
-        <main>
+        <>
             <Hero />
             <Feature />
             <Capability />
-        </main>
+        </>
     )
 }

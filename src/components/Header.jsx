@@ -2,12 +2,10 @@ export const Header = () => {
     return (
         <header>
             <nav>
-                <a>
-                    <div>
-                        <img src="images/logo.png" alt="logo" />
-                    </div>
-                    <span>Nexus</span>
-                </a>
+                <div>
+                    <img src="images/logo.png" alt="logo" />
+                </div>
+                <span>Nexus</span>
             </nav>
             <menu>
                 <ul>
