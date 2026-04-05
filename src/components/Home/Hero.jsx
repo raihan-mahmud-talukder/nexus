@@ -3,7 +3,7 @@ export const Hero = () => {
         <section className="hero">
             <div className="caption">
                 <img src="images/star.png" alt="star" />
-                <span>Award Winning Design Agency</span>
+                <span>Award-Winning Design Agency</span>
             </div>
             <h1>We Build Iconic Brands</h1>
             <p className="info">A creative agency designing digital experiences for

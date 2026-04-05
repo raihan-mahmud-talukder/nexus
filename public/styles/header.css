@@ -52,7 +52,7 @@ menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 menu ul li {
@@ -66,17 +66,19 @@ menu ul li {
 }
 
 button {
-  width: 7rem;
-  height: 3rem;
-border-radius: 16px;
-backdrop-filter: blur(8px);
-border: 1px solid #FFFFFF1A;
-background: #0b0b10;
-padding: 0.75rem 1.5rem;
+    width: 7.1rem;
+    height: 3rem;
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    border: 1px solid #FFFFFF1A;
+    background: #0b0b10;
+    padding: 0.75rem 1.5rem;
 }
 
 button a {
-  text-decoration: none;
-  color: #E6F0FF;
-  font-size: 0.875rem;
+    text-decoration: none;
+    color: #E6F0FF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
 }
