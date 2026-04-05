@@ -1,21 +1,25 @@
 export const Header = () => {
     return (
         <header>
-            <div>
-                <div className="logo">
-                    <img src="SVG.png" alt="logo" />
-                </div>
-                <span>Nexus</span>
-            </div>
-            <ul className="">
-                <li>Work</li>
-                <li>Studio</li>
-                <li>Services</li>
-                <li>Insights</li>
-            </ul>
-            <span>
+            <nav>
+                <a>
+                    <div>
+                        <img src="images/logo.png" alt="logo" />
+                    </div>
+                    <span>Nexus</span>
+                </a>
+            </nav>
+            <menu>
+                <ul>
+                    <li>Work</li>
+                    <li>Studio</li>
+                    <li>Services</li>
+                    <li>Insights</li>
+                </ul>
+            </menu>
+            <button>
                 <a href="">Let's Talk</a>
-            </span>
+            </button>
         </header>
     )
 }
