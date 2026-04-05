@@ -31,9 +31,45 @@ section h1 {
 .info {
     padding: 0 0.25rem;
     font-weight: 400;
-  color: #8A98A6;
-font-size: 1.5rem;
-line-break: 2rem;
-text-align: center;
-max-width: 37.5rem;
+    color: #8A98A6;
+    font-size: 1.5rem;
+    line-break: 2rem;
+    text-align: center;
+    max-width: 37.5rem;
+}
+
+.button {
+    display: flex;
+    gap: 1rem;
+}
+
+.project {
+    height: 3.5rem;
+    width: 12.25rem;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    background: #7C3AED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 0.25rem;
+}
+
+.project span {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.expert {
+    height: 3.5rem;
+    width: 10.75rem;
+    color: inherit;
+    padding: 1rem 2rem;
+    background: #0E1B2680;
+    backdrop-filter: blur(8px);
+    border: 1px solid #FFFFFF1A;
+    border-radius: 16px;
+    font-size: 1rem;
 }

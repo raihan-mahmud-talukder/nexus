@@ -5,18 +5,18 @@ export const Hero = () => {
                 <img src="images/star.png" alt="star" />
                 <span>Award Winning Design Agency</span>
             </div>
-            <h1 className="">We Build Iconic Brands</h1>
+            <h1>We Build Iconic Brands</h1>
             <p className="info">A creative agency designing digital experiences for
                 tomorrow. We blend high-end aesthetics with
                 powerful strategy to craft legendary digital
                 products.
             </p>
-            <div>
-                <button>
+            <div className="button">
+                <button className="project">
                     <span>View Projects</span>
                     <img src="images/arrow.png" alt="right arrow" />
                 </button>
-                <button>Our Expertise</button>
+                <button className="expert">Our Expertise</button>
             </div>
         </section>
     )
