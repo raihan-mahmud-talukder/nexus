@@ -6,15 +6,34 @@
 }
 
 .caption {
-  border-radius: 16px;
-  border: 1px solid #FFFFFF1A;
-  backdrop-filter: blur(8px);
-  background: #0E1B2680;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF1A;
+    backdrop-filter: blur(8px);
+    background: #0E1B2680;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    /* width: 15.5rem; */
+}
 
-  padding: 0.5rem 1rem;
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 0.5rem;
-/* width: 15.5rem; */
+section h1 {
+    max-width: 62rem;
+    padding: 0 13.75rem;
+    font-weight: 800;
+    font-size: 7.25rem;
+    letter-spacing: -0.29rem;
+    text-align: center;
+    line-height: 6.875rem;
+}
+
+.info {
+    padding: 0 0.25rem;
+    font-weight: 400;
+  color: #8A98A6;
+font-size: 1.5rem;
+line-break: 2rem;
+text-align: center;
+max-width: 37.5rem;
 }

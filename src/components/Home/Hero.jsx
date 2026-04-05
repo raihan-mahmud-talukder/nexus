@@ -5,8 +5,8 @@ export const Hero = () => {
                 <img src="images/star.png" alt="star" />
                 <span>Award Winning Design Agency</span>
             </div>
-            <h1 className="brand">We Build Iconic Brands</h1>
-            <p>A creative agency designing digital experiences for
+            <h1 className="">We Build Iconic Brands</h1>
+            <p className="info">A creative agency designing digital experiences for
                 tomorrow. We blend high-end aesthetics with
                 powerful strategy to craft legendary digital
                 products.
