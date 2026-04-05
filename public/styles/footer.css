@@ -1,17 +1,21 @@
 footer {
     display: flex;
-        justify-content: space-between;
-        align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 10rem; */
+    border-top: 1px solid #FFFFFF0A;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
 }
 
-nav {
+footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
 }
 
-nav>div {
+footer nav>div {
     width: 2rem;
     height: 2rem;
     background: #7C3AED;
@@ -21,21 +25,28 @@ nav>div {
     border-radius: 6px;
 }
 
-nav>img {
+footer nav>img {
     width: 1.125rem;
     width: 1.125rem;
 }
 
-ul {
+footer p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #8A98A6;
+}
+
+footer ul {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
-ul li {
+footer ul li {
     margin: 0;
     padding: 0;
     list-style: none;
