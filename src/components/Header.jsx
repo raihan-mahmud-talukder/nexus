@@ -2,9 +2,7 @@ export const Header = () => {
     return (
         <header>
             <nav>
-                <div>
-                    <img src="images/logo.png" alt="logo" />
-                </div>
+                <img src="images/logo.png" alt="logo" />
                 <span>Nexus</span>
             </nav>
             <menu>
