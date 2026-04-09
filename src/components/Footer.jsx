@@ -3,19 +3,22 @@ export const Footer = () => {
         <footer className="
             flex flex-col
             gap-2
-            justify-center
             border-t border-t-[#FFFFFF0A] border-solid
-            pt-5 pb-5 px-4
+            py-5 px-4 md:px-6 md:pt-8
+            md:flex-row md:justify-between md:items-center
             ">
             <div className="
-                flex items-center gap-1
-                justify-center">
+                flex items-center justify-center
+                gap-1 md:gap-2">
                 <img
-                    className="w-4 h-4 rounded-sm"
+                    className="
+                    w-4 h-4 md:w-5 md:h-5
+                    rounded-sm md:rounded-md
+                    "
                     src="images/logo.png" alt="logo" />
                 <span
                     className="
-                    text-sm
+                    text-sm md:text-base
                     font-extrabold
                     uppercase
                     tracking-tight
@@ -24,10 +27,11 @@ export const Footer = () => {
             </div>
             <p className="
                 font-normal
-                text-xs
+                text-xs md:text-sm
                 align-middle
                 text-center
-                text-[#8A98A6]">
+                text-[#8A98A6]
+                ">
                 © 2025 Nexus Creative Agency. All rights reserved.
             </p>
             <ul className="
