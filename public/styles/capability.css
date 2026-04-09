@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-.capability > p {
+.capability>p {
     width: 31.25rem;
     text-align: center;
     margin: auto;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-
+    flex-wrap: wrap;
     /* height: 20rem; */
 }
 

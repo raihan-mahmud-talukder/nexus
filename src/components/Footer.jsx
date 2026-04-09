@@ -1,12 +1,10 @@
 export const Footer = () => {
     return (
-        <footer>
-            <nav>
-                <div>
-                    <img src="images/logo.png" alt="logo" />
-                </div>
+        <footer className="">
+            <div className="">
+                <img className="" src="images/logo.png" alt="logo" />
                 <span>Nexus</span>
-            </nav>
+            </div>
             <p>
                 © 2025 Nexus Creative Agency. All rights reserved.
             </p>

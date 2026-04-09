@@ -15,6 +15,7 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
     color: #8A98A6;
+    margin-bottom: 4rem;
 }
 
 .feature>div {
@@ -27,6 +28,7 @@
     position: relative;
     /* overflow: hidden; */
     border-radius: 10px;
+    /* padding-top: 4rem; */
 }
 
 .container img {
