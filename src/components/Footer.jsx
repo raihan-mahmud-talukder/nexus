@@ -4,7 +4,7 @@ export const Footer = () => {
             flex flex-col
             gap-2
             border-t border-t-[#FFFFFF0A] border-solid
-            py-5 px-4 md:px-6 md:pt-8
+            py-5 px-4 md:px-6 md:pt-8 lg:px-28 lg:pt-20 lg:pb-10
             md:flex-row md:justify-between md:items-center
             ">
             <div className="
@@ -12,13 +12,13 @@ export const Footer = () => {
                 gap-1 md:gap-2">
                 <img
                     className="
-                    w-4 h-4 md:w-5 md:h-5
+                    w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6
                     rounded-sm md:rounded-md
                     "
                     src="images/logo.png" alt="logo" />
                 <span
                     className="
-                    text-sm md:text-base
+                    text-sm md:text-base lg:text-xl xl:text-2xl
                     font-extrabold
                     uppercase
                     tracking-tight
