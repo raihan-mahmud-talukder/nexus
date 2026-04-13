@@ -3,21 +3,21 @@ import { features } from "../../data/features"
 export const Features = () => {
     return (
         <section className='
-            px-4 md:px-10 md:py-40
+            px-4 py-10 md:px-10 md:py-40
         '>
             <h2 className="
                 font-bold tracking-tighter
-                text-3xl md:text-5xl text-center md:text-left
+                text-3xl md:text-5xl text-center lg:text-left
             ">Featured Work</h2><br />
             <p className="
-                text-lg text-[#8A98A6]
-                max-w-lg mb-5 px-2 text-center md:text-left
+                text-lg text-[#8A98A6] m-auto lg:m-0
+                max-w-lg mb-5 px-2 text-center lg:text-left
             ">
                 Explore our latest collection of premium digital products, immersive 3D experiences, and iconic brand identities.
             </p>
             <br />
             <div className="
-                flex flex-col gap-5
+                flex flex-col gap-5 items-center
                 md:flex-row md:flex-wrap md: justify-center
 
             ">
@@ -56,7 +56,7 @@ const Feature = ({ features }) => {
                 </div>
                 <img className="
                     w-12 h-12 rounded-3xl
-                " src='images/features/arrow.png' />
+                " src='images/features/arrow.png' alt='arrow' />
             </div>
         </aside>
     )

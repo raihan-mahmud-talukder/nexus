@@ -3,7 +3,7 @@ import { capabilities } from "../../data/capabilities"
 export const Capabilities = () => {
     return (
         <section className="
-            px-4 py-10 md:py-40
+            px-4 py-20 md:py-40
         ">
             <h2 className="
                 text-3xl md:5xl
@@ -12,14 +12,15 @@ export const Capabilities = () => {
             ">Our Capabilities</h2>
             <br />
             <p className="
-                max-w-lg px-2 m-auto
+                max-w-lg px-2 m-auto w-screen
                 text-lg font-normal text-center text-[#8A98A6]
             ">
                 We are a multi-disciplinary studio leveraging future- ready technologies to craft industry-leading platforms.
             </p>
             <br /><br />
             <div className="
-                flex flex-col gap-6 md:flex-row
+                flex flex-col gap-6 sm: items-center
+                md:flex-row md:flex-wrap md:justify-center
             ">
             {capabilities.map((item, index) => {
                 return <Capability key={index} capability={item} />
@@ -33,11 +34,11 @@ const Capability = ({capability}) => {
     return (
         <article className="
             pt-5 px-5 pb-4
-            md:pt-10 md:px-10 md:pb-8
-            flex flex-col justify-start gap-2
+            md:pt-8 md:px-8 md:pb-10
+            flex flex-col items-start gap-6
             rounded-lg md:rounded-xl
             border border-white border-opacity-10
-            backdrop-blur-xl bg-[]
+            backdrop-blur-xl w-96 lg:h-72
         ">
             <img className="
                 w-16 h-16 rounded-lg
