@@ -18,7 +18,7 @@ export const Features = () => {
             <br />
             <div className="
                 flex flex-col gap-5 items-center
-                md:flex-row md:flex-wrap md: justify-center
+                md:flex-row md:flex-wrap md: justify-center md:items-start
 
             ">
                 {features.map((item, index) => <Feature features={item} key={index} />)}
