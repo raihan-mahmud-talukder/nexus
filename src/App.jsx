@@ -4,7 +4,9 @@ import { Home } from "./components/Home"
 
 export const App = () => {
   return (
-    <main>
+    <main className="
+      lg:py-0 lg:px-20
+    ">
       <Header />
       <Home /> 
       <Footer />

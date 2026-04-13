@@ -12,7 +12,7 @@ export const Capabilities = () => {
             ">Our Capabilities</h2>
             <br />
             <p className="
-                max-w-lg px-2 m-auto w-screen
+                max-w-lg px-2 m-auto w-fit
                 text-lg font-normal text-center text-[#8A98A6]
             ">
                 We are a multi-disciplinary studio leveraging future- ready technologies to craft industry-leading platforms.

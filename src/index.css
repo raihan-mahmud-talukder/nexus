@@ -19,8 +19,11 @@ body {
   box-sizing: border-box;
 }
 
-main {
-  /* padding: 0 5rem; */
+/* main {
+  padding: 0 5rem;
   
-}
+} */
 
+li {
+  cursor: pointer;
+}

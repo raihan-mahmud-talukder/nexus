@@ -7,6 +7,7 @@ header {
     align-items: center;
     background-color: oklab(19.2414% -.00151229 -.0256411/.16);
     margin-top: 1.25rem;
+    background: #0F142066;
     padding: 1rem 2rem;
     position: relative;
     /* overflow: hidden; */
