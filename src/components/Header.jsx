@@ -66,7 +66,7 @@ export const Header = () => {
             ">
                 <a
                     className="font-semibold text-sm"
-                    href="#">Let's Talk</a>
+                    href="/">Let's Talk</a>
             </button>
         </header>
     )
