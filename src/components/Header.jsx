@@ -64,9 +64,9 @@ export const Header = () => {
                 w-28 h-12 rounded-2xl backdrop-blur py-3 px-5
                  border border-[#FFFFFF1A] bg-[#0b0b10]
             ">
-                <a className="
-                    font-semibold text-sm
-                " href="">Let's Talk</a>
+                <a
+                    className="font-semibold text-sm"
+                    href="#">Let's Talk</a>
             </button>
         </header>
     )
