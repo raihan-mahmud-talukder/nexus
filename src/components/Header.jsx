@@ -7,7 +7,7 @@ export const Header = () => {
             rounded-2xl border border-[#FFFFFF0D]
             backdrop-blur-lg bg-[#0F142066] py-4 px-8
             flex flex-col items-center md:flex-row
-            md:justify-between md:items-center
+            md:justify-between md:items-center mt-6
         ">
             <nav className="
                 flex justify-between items-center gap-2
