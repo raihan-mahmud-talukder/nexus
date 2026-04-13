@@ -3,7 +3,7 @@ import { capabilities } from "../../data/capabilities"
 export const Capabilities = () => {
     return (
         <section className="
-            px-4 py-20 md:py-40
+            px-4 py-20 md:py-40 md:px-0
         ">
             <h2 className="
                 text-3xl md:5xl

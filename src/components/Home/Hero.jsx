@@ -22,8 +22,8 @@ export const Hero = () => {
             ">We Build Iconic Brands</h1><br />
             <p className="
                 text-[#8A98A6] text-center text-base lg:text-xl
-                w-96 px-1 py-2
-            ">A creative agency designing digital experiences for
+                w-96 md:w-[600px] px-1 py-2">
+                A creative agency designing digital experiences for
                 tomorrow. We blend high-end aesthetics with
                 powerful strategy to craft legendary digital
                 products.

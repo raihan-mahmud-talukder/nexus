@@ -4,7 +4,7 @@ export const Footer = () => {
             flex flex-col
             gap-2
             border-t border-t-[#FFFFFF0A] border-solid
-            py-5 px-4 md:px-6 md:pt-8 lg:pt-20 lg:pb-10
+            py-5 px-4 md:px-0 md:pt-8 lg:pt-20 lg:pb-10
             md:flex-row md:justify-between md:items-center
             ">
             <div className="
