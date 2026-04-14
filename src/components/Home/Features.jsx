@@ -7,16 +7,16 @@ export const Features = () => {
         '>
             <h2 className="
                 font-bold tracking-tighter
-                text-3xl md:text-5xl text-center lg:text-left">
+                text-3xl md:text-5xl text-center">
                 Featured Work</h2><br />
             <p className="
-                text-lg text-[#8A98A6] m-auto lg:m-0
-                max-w-lg mb-5 px-2 text-center lg:text-left">
+                text-lg text-[#8A98A6] m-auto
+                max-w-lg mb-5 px-2 text-center">
                 Explore our latest collection of premium digital products, immersive 3D experiences, and iconic brand identities.
             </p>
             <br />
             <div className="
-                flex flex-col gap-5 items-center md:w-full
+                flex flex-col gap-5 items-center
                 md:flex-row md:flex-wrap md:justify-center md:items-start">
                 {features.map((item, index) => <Feature features={item} key={index} />)}
             </div>
@@ -29,11 +29,9 @@ const Feature = ({ features }) => {
         <aside className="
             rounded-lg md:rounded-xl border border-[#0F1420]
             relative">
-            <div className="">
-                <img
-                    className="rounded-lg md:rounded-xl"
-                    src={features.imgage} alt={features.title} />
-            </div>
+            <img
+                className="rounded-lg md:rounded-xl"
+                src={features.imgage} alt={features.title} />
             <div className="
                 pt-6 pb-5 px-5 w-full
                 md:pt-8 md:pb-6 md:px-6

@@ -7,8 +7,7 @@ export const Header = () => {
             rounded-2xl border border-[#FFFFFF0D]
             backdrop-blur-lg bg-[#0F142066] py-4 px-8
             flex flex-col items-center md:flex-row
-            md:justify-between md:items-center mt-6
-        ">
+            md:justify-between md:items-center mt-6">
             <nav className="
                 flex justify-between items-center gap-2
             ">
@@ -21,7 +20,7 @@ export const Header = () => {
                 ">Nexus</span>
             </nav>
             <button
-                className=" m-2 p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border md:hidden"
+                className="m-2 p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border md:hidden"
                 onClick={() => setNavbar(!navbar)}
             >
                 {navbar ? (

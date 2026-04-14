@@ -6,7 +6,7 @@ export const Capabilities = () => {
             px-4 py-20 md:py-40 md:px-0
         ">
             <h2 className="
-                text-3xl md:5xl
+                text-3xl md:text-5xl
                 font-bold tracking-tighter
                 text-center align-middle
             ">Our Capabilities</h2>
